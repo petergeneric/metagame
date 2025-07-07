@@ -1,0 +1,176 @@
+{
+	"name": "Sherlock Holmes Consulting Detective",
+	"type": "shcd",
+	"shortName": "SHCD",
+	"savePrefix": "SHCD",
+	"credits": "Sherlock Holmes Consulting Detective is © SPACE Cowboys. All rights reserved.",
+	"projection": "WGS84",
+	"locationResources": [
+		"https://noir.levitime.com/shcd/people_places.json",
+		 "https://noir.levitime.com/shcd/cluelocs.json"
+	],
+	"iconMappingURL": "https://noir.levitime.com/shcd/categories.json",
+	"yellowPagesAdURL": null,
+	"hasYellowPages": false,
+	"hasReverseDirectory": false,
+	"hasWhitePages": true,
+	"iconBaseUrl": "https://noir.levitime.com/map/icon",
+	"icons": {
+		"bookmark": "https://noir.levitime.com/map/icon/icon-anchor.png",
+
+		"bookmarkBlack": "https://noir.levitime.com/map/icon/icon-bookmark-black.png",
+		"bookmarkBrightRed": "https://noir.levitime.com/map/icon/icon-bookmark-brightred.png",
+		"bookmarkPaleRed": "https://noir.levitime.com/map/icon/icon-bookmark-palered.png",
+		"bookmarkOrange": "https://noir.levitime.com/map/icon/icon-bookmark-orange.png",
+		"bookmarkPink": "https://noir.levitime.com/map/icon/icon-bookmark-pink.png",
+		"bookmarkTeal": "https://noir.levitime.com/map/icon/icon-bookmark-teal.png"
+	},
+	"mapBaseUrl": "https://noir.levitime.com/shcd/v2",
+	"mapCredit": "© SPACE Cowboys. All rights reserved",
+	"mapCentre": [ -0.11867403816579991, 51.50994450402212 ],
+	"mapRotation": 0,
+	"mapExtent": [-0.1646263, 51.4869139, -0.0734879, 51.5317371],
+	"mapZoomRange": [3, 17],
+	"mapZoom": 14,
+	"overworldName": "London",
+
+	"shcd": {
+		"allies": [
+			{
+				"name": "Sir Jasper Meeks",
+				"maploc": "EC-38",
+				"description": "Head Medical Examiner at Saint Bartholemew's hospital. He performs the autopsies on all bodies found during the investigations"
+			},
+			{
+				"name": "H.R. Murray",
+				"maploc": "SW-22",
+				"description": "Criminologist. He analyses all items and substances found during cases"
+			},
+			{
+				"name": "Scotland Yard",
+				"maploc": "SW-13",
+				"description": "Police (represented by Inspectors Lestrade and Gregson). They have reports and details related to the case"
+			},
+			{
+				"name": "Disraeli O'Brian",
+				"maploc": "WC-14",
+				"description": "Archivist with the Office of National Archives. Compiles legal and criminal records."
+			},
+			{
+				"name": "Somerset House",
+				"maploc": "WC-17",
+				"description": "Records of births, deaths, marriages, and wills. Free access."
+			},
+			{
+				"name": "Edward Hall",
+				"maploc": "EC-36",
+				"description": "Laywer at the Old Bailey court. Source of information on court cases and legal affairs"
+			},
+			{
+				"name": "Porky Shinwell",
+				"maploc": "EC-52",
+				"description": "Owner of the Raven and Rat pub. Source of information on all illegal affairs and underworld figures"
+			},
+			{
+				"name": "Fred Porlock",
+				"maploc": "NS-18",
+				"description": "Member of the criminal underground. Leaves coded information on the activities of Moriarty (leader of the criminal underground and sworn enemy of Holmes) at the Parson & Sons toy shop."
+			},
+			{
+				"name": "Henry Ellis",
+				"maploc": "EC-30",
+				"description": "Reporter for the Times. Source of information on current events, mainly on foreign affairs"
+			},
+			{
+				"name": "Quentin Hogg",
+				"maploc": "EC-35",
+				"description": "Reporter for the Police Gazette. Source of information for criminal cases"
+			},
+			{
+				"name": "Mycroft Holmes",
+				"maploc": "SW-8",
+				"description": "Emince grise. Source of information on all things relating to politics and government"
+			},
+			{
+				"name": "Langdale Pike",
+				"maploc": "SW-2",
+				"description": "Social columnist. Knows all London society gossip"
+			},
+			{
+				"name": "Central Carriage Depot",
+				"maploc": "WC-5",
+				"description": "Meeting point for London cab drivers. Source of information on the movements of suspects"
+			},
+			{
+				"name": "Lomax",
+				"maploc": "SW-5",
+				"description": "Librarian at the London Library. To be consulted for any encyclopaedic research"
+			},
+			{
+				"name": "Sherlock Holmes",
+				"maploc": "NW-42",
+				"description": "If you’re stuck in your investigation, Sherlock Holmes will set you back on track with some good advice. Be careful, that help could spoil the fun of investigating!"
+			}
+		]
+	},
+
+
+	"proofOfOwnership": {
+		"name": "shcd",
+		"prompt": "In order to use this interface, you must own a copy of Sherlock Holmes Consulting Detective. Please answer the following question(s) to prove you own the game.",
+		"questions": {
+			"Do you own the game? If so, type: yes": "8fff039853f5c2bbb8a28d056b579c7dcb7d137f"
+		},
+		"questions_old":{
+			"1/3 What is the address of the Bank 'Bank of England'? Please answer with the area-number (for example, if the answer in the book is 12 NW, enter NW-12)": "a6d7e27ed19912c6d7214578a9a725a6d23e5f99",
+			"2/3 What is the address of the Map Sellers 'Bacon & Co'? Please answer with the area-number (for example, if the answer in the book is 12 NW, enter NW-12)": "d011c25beccca6a63927e909f1cb83a4ba06fa75",
+			"3/3 What is the address of the Informant 'Henry Ellis'? Please answer with the area-number (for example, if the answer in the book is 12 NW, enter NW-12)": "58ca475dd8d00c717aa0aa4549d1bdf7faf53cb2"
+		}
+	},
+	
+	"yellowPagesSeeAlso": {},
+
+	"cases": [
+		{"id":"tutorial","manifestUrl":"https://noir.levitime.com/shcd/the_battered_bookworm.json"},
+		{"id":"the_mystified_murderess", "manifestUrl":"https://noir.levitime.com/shcd/the_mystified_murderess/manifest.json"}
+	],
+	
+	"regions": [
+	  {
+		"id": "NW",
+		"name": "North West",
+		"near": [],
+		"polygon":  [ [ -0.1644372, 51.531672 ], [ -0.1646263, 51.5018431 ], [ -0.1532809, 51.5029025 ], [ -0.1516736, 51.5027848 ], [ -0.1492154, 51.5031967 ], [ -0.1465682, 51.5044915 ], [ -0.1410846, 51.5073162 ], [ -0.1371137, 51.5088461 ], [ -0.1315355, 51.5103761 ], [ -0.1285101, 51.5110822 ], [ -0.1285101, 51.5116706 ], [ -0.1309682, 51.5170836 ], [ -0.13683, 51.5220842 ], [ -0.1392882, 51.5253195 ], [ -0.1400446, 51.5317308 ], [ -0.1644372, 51.531672 ] ]
+	  },
+
+	  {
+		"id": "SW",
+		"name": "South West",
+		"near": [],
+		"polygon":  [ [ -0.1645994, 51.4870251 ], [ -0.1290481, 51.4869139 ], [ -0.1266718, 51.4890101 ], [ -0.1245989, 51.4916501 ], [ -0.1239864, 51.4932048 ], [ -0.1236095, 51.4967245 ], [ -0.1228927, 51.5036328 ], [ -0.1219534, 51.5066473 ], [ -0.128371, 51.5075493 ], [ -0.1289403, 51.5082257 ], [ -0.1297166, 51.5082257 ], [ -0.1316315, 51.5104161 ], [ -0.1375834, 51.5086767 ], [ -0.142086, 51.506905 ], [ -0.1491764, 51.5032648 ], [ -0.152023, 51.5027493 ], [ -0.1536274, 51.5029104 ], [ -0.1644959, 51.5019761 ], [ -0.1645994, 51.4870251 ] ]
+	  },
+
+	  {
+		"id": "SE",
+		"name": "South East",
+		"near": [],
+		"polygon": [ [ -0.1231559, 51.4869656 ], [ -0.0734879, 51.4870273 ], [ -0.0735374, 51.5051857 ], [ -0.0781923, 51.5068193 ], [ -0.0845307, 51.5076515 ], [ -0.0899779, 51.5078673 ], [ -0.0943851, 51.5090076 ], [ -0.1047842, 51.5092542 ], [ -0.1104294, 51.5087611 ], [ -0.1154309, 51.5078981 ], [ -0.1171146, 51.5069734 ], [ -0.1187982, 51.505494 ], [ -0.1203828, 51.4956604 ], [ -0.1231559, 51.4869656 ] ]
+	  },
+
+	  {
+		"id": "EC",
+		"name": "East Central",
+		"near": [],
+		"polygon":  [ [ -0.1118571, 51.5316923 ], [ -0.1107578, 51.5286458 ], [ -0.1102581, 51.5277131 ], [ -0.1088089, 51.5265006 ], [ -0.1110576, 51.5250083 ], [ -0.1128566, 51.5234227 ], [ -0.1132064, 51.5230185 ], [ -0.1132064, 51.5223034 ], [ -0.1135062, 51.5215882 ], [ -0.1115573, 51.5183545 ], [ -0.1117072, 51.5177015 ], [ -0.1128066, 51.5171728 ], [ -0.1123569, 51.516582 ], [ -0.1102081, 51.5167375 ], [ -0.1092587, 51.5166131 ], [ -0.1096584, 51.5144052 ], [ -0.1129565, 51.51369 ], [ -0.1136061, 51.5131302 ], [ -0.1128066, 51.5122905 ], [ -0.112107, 51.5116374 ], [ -0.1117572, 51.5109533 ], [ -0.1040117, 51.5110777 ], [ -0.0985149, 51.5111399 ], [ -0.0939676, 51.5103934 ], [ -0.0890205, 51.5094915 ], [ -0.0871716, 51.5094915 ], [ -0.0845231, 51.5093049 ], [ -0.0828241, 51.5092427 ], [ -0.0769275, 51.5079675 ], [ -0.0736295, 51.507501 ], [ -0.0735295, 51.5315679 ], [ -0.1118571, 51.5316923 ] ]
+	  },
+
+	  {
+		"id": "WC",
+		"name": "West Central",
+		"near": [],
+		"polygon": [ [ -0.140186, 51.5317371 ], [ -0.1394684, 51.5286125 ], [ -0.1394684, 51.5258309 ], [ -0.1390821, 51.5246977 ], [ -0.1373158, 51.5225685 ], [ -0.1356047, 51.52092 ], [ -0.1335625, 51.519134 ], [ -0.1326242, 51.5182067 ], [ -0.1310235, 51.5169015 ], [ -0.1291468, 51.5130888 ], [ -0.1284845, 51.5116117 ], [ -0.1287053, 51.5110964 ], [ -0.1315203, 51.5104438 ], [ -0.1298092, 51.5082795 ], [ -0.1288157, 51.5081764 ], [ -0.1282637, 51.5074894 ], [ -0.1214747, 51.5065274 ], [ -0.1193772, 51.509104 ], [ -0.1161207, 51.5103063 ], [ -0.1116498, 51.5110277 ], [ -0.1123122, 51.5120926 ], [ -0.1134713, 51.5130201 ], [ -0.1131953, 51.5135353 ], [ -0.1095524, 51.5144971 ], [ -0.109166, 51.5165924 ], [ -0.1098836, 51.5167641 ], [ -0.1122018, 51.516558 ], [ -0.1126985, 51.5171076 ], [ -0.1117602, 51.5176228 ], [ -0.1115394, 51.5182067 ], [ -0.1134713, 51.5216069 ], [ -0.1130849, 51.5223281 ], [ -0.1130849, 51.5230836 ], [ -0.1110979, 51.5248694 ], [ -0.1109875, 51.5251785 ], [ -0.1089452, 51.5263117 ], [ -0.1088349, 51.5265864 ], [ -0.109994, 51.527651 ], [ -0.1104355, 51.5282004 ], [ -0.1109875, 51.5294366 ], [ -0.1117602, 51.5316685 ], [ -0.140186, 51.5317371 ] ]
+	  }
+	],
+	"aptName": "Flat"
+}
+

@@ -1,0 +1,57 @@
+{
+	"id": "tutorial",
+	"name": "The Battered Bookworm",
+	"version": "1.1",
+	"author": "Marthinus Conradie",
+	"website": "https://boardgamegeek.com/filepage/219141/fan-case-for-shcd-the-battered-bookworm",
+	"pdf_url": "/shcd/the_battered_bookworm.pdf",
+	"complete": true,
+	"welcomeLead": "Introduction",
+	"welcomeTip": "Welcome! This system presents leads in the form AREA-CODE rather than the more familiar SHCD (CODE)(AREA).",
+	"days": [{
+		"name": "Day 1",
+		"start": "09:00",
+		"end": "23:00",
+		"mustGet": [],
+		"lead": "Introduction"
+	}],
+	"leads": [
+		{"lead": "Introduction", "page": 4, "length": 2, "bookmark": true, "startOfDay": 1},
+		{"lead": "The Times", "page": 7, "length": 2, "bookmark": true},
+		{"lead": "Document 1", "page": 9, "length": 1},
+		{"lead": "Conclusion - Questions", "page": 43, "length": 1, "bookmark": true, "endOfCase": true},
+		{"lead": "Solution", "page": 44, "length": 2, "bookmark": true},
+
+		{"lead": "EC-10", "title": "Poole & Co", "page": 12, "length": 1},
+		{"lead": "EC-30", "title": "Henry Ellis", "page": 13, "length": 1},
+		{"lead": "EC-38", "title": "Medical Examiner, Jasper Weeks", "page": 14, "length": 1},
+		{"lead": "EC-52", "title": "Raven & Rat: Porky Shinwell", "page": 15, "length": 2},
+		{"lead": "EC-72", "title": "Jennifer Olmstead", "page": 17, "length": 1},
+
+		{"lead": "NW-16", "title": "Denny Borland's Home", "page": 19, "length": 1},
+		{"lead": "NW-18", "title": "Fred Porlock", "page": 20, "length": 1},
+		{"lead": "NW-25", "title": "John Cloyd", "page": 21,"length": 2},
+		{"lead": "NW-29", "title": "Sullivan's Textiles", "page": 23, "length": 1},
+
+		{"lead": "SE-14", "title": "Jennifer Blake", "page": 25, "length": 1},
+		{"lead": "SE-33", "title": "The Bar Of Gold", "page": 26, "length": 1},
+		{"lead": "SE-34", "title": "Red Boar Inn", "page": 27, "length": 1},
+		{"lead": "SE-44", "title": "Wolff Phillips & Co", "page": 28, "length": 1},
+
+		{"lead": "SW-2", "title": "Langdale Pike", "page": 30, "length": 1},
+		{"lead": "SW-8", "title": "Mycroft Holmes", "page": 31, "length": 1},
+		{"lead": "SW-13", "title": "Scotland Yard", "page": 32, "length": 1},
+		{"lead": "SW-22", "title": "H.R. Murray, Criminologist", "page": 33, "length": 1},
+		{"lead": "SW-25", "title": "Spaniard's Inn", "page": 34, "length": 1,
+			"adds": ["Document 1"]
+		},
+		{"lead": "SW-48", "title": "Goldini's", "page": 35, "length": 1},
+		{"lead": "SW-61", "title": "Luker Textiles", "page": 36, "length": 1},
+		{"lead": "SW-63", "title": "Forest Renfield's Home", "page": 37, "length": 1},
+		{"lead": "SW-65", "title": "Horace Luker", "page": 38, "length": 1},
+
+		{"lead": "WC-14", "title": "Disraeli O'Brian", "page": 40, "length": 1},
+		{"lead": "WC-35", "title": "Staple Inn", "page": 41, "length": 1},
+		{"lead": "WC-66", "title": "Dobell Books", "page": 42, "length": 1}
+	]
+}

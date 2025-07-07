@@ -1,0 +1,297 @@
+{
+  "id": "tutorial",
+  "system": "NY Noir",
+  "name": "The Past Is A Crooked Game",
+  "version": "2.4",
+  "author": "Jesse Reichler",
+  "pdf_url": "/nynoir/tutorial_case.pdf",
+  "website": "https://nynoir.org/about",
+  "complete": true,
+  "welcomeLead": "Day 1 Start",
+  "welcomeTip": "Welcome! If you're not sure where to start your case after reading the Introduction, try searching the White Pages or the Map for Tallerico",
+  "days": [
+    {
+      "name": "Day 1",
+      "start": "10:00",
+      "end": "15:00",
+      "mustGet": [
+        "Marker A",
+        "Marker C"
+      ],
+      "lead": "Day 1 Start"
+    },
+    {
+      "name": "Day 2",
+      "start": "08:00",
+      "end": "17:00",
+      "mustGet": [
+        "Marker D",
+        "Marker M"
+      ],
+      "lead": "Day 2 Start"
+    }
+  ],
+  "leads": [
+    {
+      "lead": "Day 1 Start",
+      "page": 7,
+      "length": 5,
+      "bookmark": true,
+      "startOfDay": 1,
+      "adds": [
+        "Document 1",
+        "Document 2"
+      ]
+    },
+    {
+      "lead": "Document 1",
+      "page": 61,
+      "length": 1,
+      "bookmark": false
+    },
+    {
+      "lead": "Document 2",
+      "page": 62,
+      "length": 1,
+      "bookmark": false
+    },
+    {
+      "lead": "Day 2 Start",
+      "page": 13,
+      "length": 2,
+      "bookmark": true,
+      "startOfDay": 2
+    },
+    {
+      "lead": "Conclusion",
+      "page": 63,
+      "length": 8,
+      "bookmark": true,
+      "endOfCase": true
+    },
+    {
+      "lead": "Hints",
+      "page": 72,
+      "length": 4,
+      "bookmark": true
+    },
+    {
+      "lead": "1-1978",
+      "page": 18,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "1-7062",
+      "page": 19,
+      "length": 1,
+      "cost": 30,
+      "adds": [
+        "Marker D"
+      ]
+    },
+    {
+      "lead": "1-9030",
+      "page": 20,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "2-2130",
+      "page": 22,
+      "length": 1,
+      "demerit": 2
+    },
+    {
+      "lead": "2-5808",
+      "page": 23,
+      "length": 1,
+      "cost": 60,
+      "adds": [
+        "Marker A"
+      ]
+    },
+    {
+      "lead": "2-8920",
+      "page": 24,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "3-1851",
+      "page": 26,
+      "length": 1,
+      "cost": 60,
+      "culture": 3
+    },
+    {
+      "lead": "3-4564",
+      "page": 27,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "3-5406",
+      "page": 28,
+      "length": 1
+    },
+    {
+      "lead": "4-2821",
+      "page": 30,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "4-3500",
+      "page": 31,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "4-5360",
+      "page": 32,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "5-0727",
+      "page": 34,
+      "length": 1,
+      "demerit": 2
+    },
+    {
+      "lead": "5-1068",
+      "page": 35,
+      "length": 1
+    },
+    {
+      "lead": "5-1290",
+      "page": 36,
+      "length": 1,
+      "cost": 60,
+      "adds": [
+        "Marker D"
+      ]
+    },
+    {
+      "lead": "5-1779",
+      "page": 37,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "5-8755",
+      "page": 38,
+      "length": 1,
+      "cost": 60,
+      "adds": [
+        "Marker C"
+      ]
+    },
+    {
+      "lead": "6-2925",
+      "page": 40,
+      "length": 1,
+      "demerit": 3
+    },
+    {
+      "lead": "6-3192",
+      "page": 41,
+      "length": 1
+    },
+    {
+      "lead": "6-5810",
+      "page": 42,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "6-6463",
+      "page": 43,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "6-6755",
+      "page": 44,
+      "length": 1,
+      "demerit": 2
+    },
+    {
+      "lead": "6-7295",
+      "page": 45,
+      "length": 1,
+      "demerit": 2
+    },
+    {
+      "lead": "7-0031",
+      "page": 47,
+      "length": 1
+    },
+    {
+      "lead": "7-3019",
+      "page": 48,
+      "length": 1
+    },
+    {
+      "lead": "7-5502",
+      "page": 49,
+      "length": 1,
+      "cost": 60,
+      "adds": [
+        "Marker M"
+      ]
+    },
+    {
+      "lead": "7-8245",
+      "page": 50,
+      "length": 1
+    },
+    {
+      "lead": "7-8844",
+      "page": 51,
+      "length": 1,
+      "demerit": 1
+    },
+    {
+      "lead": "7-8927",
+      "page": 52,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "8-4501",
+      "page": 54,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "8-5257",
+      "page": 55,
+      "length": 1,
+      "cost": 60
+    },
+    {
+      "lead": "8-6011",
+      "page": 56,
+      "length": 1
+    },
+    {
+      "lead": "8-7517",
+      "page": 57,
+      "length": 1,
+      "demerit": 2
+    },
+    {
+      "lead": "8-7893",
+      "page": 58,
+      "length": 1
+    },
+    {
+      "lead": "8-8699",
+      "page": 59,
+      "length": 1,
+      "cost": 60
+    }
+  ]
+}
