@@ -24,9 +24,12 @@ If you're an author and would like to use Metagame to help develop your next cas
 
 ## Supported Games
 
- - Sherlock Holmes Consulting Detective ([play online](https://noir.levitime.com/g/game?system=shcd&case=tutorial), [online map](https://noir.levitime.com/g/map?system=shcd)
- - Mythos Tales ([play online](https://noir.levitime.com/g/game?system=mythos&case=there_and_back_again), [online map](https://noir.levitime.com/g/map?system=mythos))
- - [New York Noir](https://www.nynoir.org) (game under development, limited to [online map](https://noir.levitime.com/g/map?system=nynoir))
+
+| System | Links |
+|---|---|---|
+| Sherlock Holmes Consulting Detective | [play online](https://noir.levitime.com/g/game?system=shcd&case=tutorial), [online map](https://noir.levitime.com/g/map?system=shcd) |
+| Mythos Tales | [play online](https://noir.levitime.com/g/game?system=mythos&case=there_and_back_again), [online map](https://noir.levitime.com/g/map?system=mythos) |
+| [New York Noir](https://www.nynoir.org) | game under development, limited to [online map](https://noir.levitime.com/g/map?system=nynoir) |
 
 
 # Screenshots
@@ -39,3 +42,8 @@ If you're an author and would like to use Metagame to help develop your next cas
 
 
 
+## Casebook
+
+Metagame is especially useful to support authors using [Casebook](https://github.com/dcmouser/casebook), a tool to help author cases for New York Noir, Sherlock Holmes Consulting Detective, and other SHCD-style games.
+
+Casebook produces beautifully typeset PDFs in a variety of formats for your case.
