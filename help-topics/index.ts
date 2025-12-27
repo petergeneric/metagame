@@ -15,6 +15,7 @@ import bookmarksContent from './bookmarks.html?raw';
 import keyboardShortcutsContent from './keyboard-shortcuts.html?raw';
 import mapLegendContent from './map-legend.html?raw';
 import nynoirPeoplePropertiesContent from './nynoir-people-properties.html?raw';
+import creditsContent from './credits.html?raw';
 
 /**
  * Definition of a single help topic
@@ -112,6 +113,13 @@ export const HELP_TOPICS: HelpTopic[] = [
         keywords: ['ethnicity', 'gender', 'male', 'female', 'irish', 'italian', 'german', 'names'],
         content: nynoirPeoplePropertiesContent,
         world: 'nynoir',
+    },
+    {
+        id: 'credits',
+        title: 'Credits',
+        order: 100,
+        keywords: ['credits', 'attribution', 'license', 'libraries', 'artwork', 'icons', 'openlayers', 'copyright'],
+        content: creditsContent,
     },
 ];
 
