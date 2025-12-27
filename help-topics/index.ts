@@ -33,6 +33,8 @@ export interface HelpTopic {
     content: string;
     /** Optional world restriction (e.g., 'nynoir'). If omitted, shown for all worlds. */
     world?: string;
+    /** If true, topic is not included in fulltext search index */
+    excludeFromSearch?: boolean;
 }
 
 /**
@@ -118,8 +120,9 @@ export const HELP_TOPICS: HelpTopic[] = [
         id: 'credits',
         title: 'Credits',
         order: 100,
-        keywords: ['credits', 'attribution', 'license', 'libraries', 'artwork', 'icons', 'openlayers', 'copyright'],
+        keywords: [],
         content: creditsContent,
+        excludeFromSearch: true,
     },
 ];
 
