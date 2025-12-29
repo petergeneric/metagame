@@ -8,6 +8,7 @@
 
 <ul>
   <li><code>selector:value</code> - Basic selector</li>
+  <li><code>selector(param1, param2, param3, ...) - Complex selectors</code>
   <li><code>1-1234</code> or <code>1-100,2-200</code> - Lead number constraints (tail)</li>
   <li>Free text at the end applies a substring match</li>
 </ul>
@@ -22,11 +23,12 @@
 <ul>
   <li><code class="search" data-tab="advanced">near:here</code> - Within default distance of map centre</li>
   <li><code class="search" data-tab="advanced">near:anchor</code> - Within default distance of current anchor</li>
-  <li><code class="search" data-tab="advanced">near:anchor,1mi</code> - Within 1 mile of the anchor</li>
+  <li><code class="search" data-tab="advanced">near(anchor,1mi)</code> - Within 1 mile of the anchor</li>
   <li><code class="search" data-tab="advanced">near:1-1234</code> - Near a specific lead</li>
   <li><code class="search" data-tab="advanced">near:LI-20</code> - Near a building</li>
-  <li><code class="search" data-tab="advanced">near:993488,223292</code> - Near EPSG:2263 coordinates</li>
-  <li><code class="search" data-tab="advanced">near:LI-20,1mi,bar,10</code> - The 10 nearest bars to LI-20</li>
+  <li><code class="search" data-tab="advanced">near(993488,223292)</code> - Near EPSG:2263 coordinates</li>
+  <li><code class="search" data-tab="advanced">near(LI-20,1mi) is:bar limit:10</code> - The 10 nearest bars within 1 Mile of LI-20</li>
+  <li><code class="search" data-tab="advanced">is:bar near((is:subway),100m)</code> - Bars within 100m of a Subway station</li>
 </ul>
 
 <h3>contains:</h3>
@@ -91,6 +93,14 @@
 <h3>random:</h3>
 <p>Select N items at random from the result set.</p>
 <p><strong>Form:</strong> <code>random:N</code></p>
+
+<h3>near</h3>
+<p><code>near</code> queries are especially powerful, but bear in mind they can also be extremely slow. They should be placed towards the end of your query. This is especially true for near queries that include a subquery form e.g.
+<ul>
+  <li><code class="search" data-tab="advanced">is:bar near((is:subway),100m)</code> is fast, whereas</li>
+  <li><code class="search" data-tab="advanced">near((is:subway),100m) is:bar</code> is extremely slow (since it checks the distance to a subway stop for EVERY person and place in the database, and then throws away most of those results looking only for bars</li>
+</ul>
+</p>
 
 <h2>Sorting by Distance</h2>
 
